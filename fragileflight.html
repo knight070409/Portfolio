@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Yash Rakesh Pal" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yash Rakesh Pal">Yash Rakesh Pal</h1>
+
+          <p class="title">Unity developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yashpal070409@gmail.com" class="contact-link">yashpal070409@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nandurbar, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+<!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            
+            <a href="index.html" class="navbar-link" data-nav-link>Back</a>
+
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio active" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Fragile Flight (under development)</h2>
+        </header>
+
+        <section class="about-text">
+
+            <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:20px;">
+                <iframe 
+                  src="https://www.youtube.com/embed/X92sad2XKyU" 
+                  style="position:absolute; top:0; left:0; width:100%; height:100%;" 
+                  frameborder="0" 
+                  allowfullscreen>
+                </iframe>
+            </div>
+
+            <p>
+              Fragile Flight is a high-speed endless runner developed for a game jam, featuring a drone as the main character. 
+              Inspired by the gameplay style of Subway Surfers, the player must guide the drone through challenging environments, collecting coins and avoiding obstacles to prevent crashing.
+              The game focuses on fast reflexes, precision control, and maintaining flight through increasingly difficult terrain.
+            </p>
+
+            <p>
+              In its current version, developed under time constraints for the game jam, the game uses placeholder 3D assets and basic mechanics. 
+              However, I’m actively working on evolving it into a polished release with optimized systems, original visuals, and more immersive gameplay.
+            </p>
+
+            <p>
+              As the Unity Developer, I’ve been responsible for designing and implementing core gameplay mechanics, handling collision and flight control systems, and laying the foundation for a fully realized mobile experience. 
+              The project is set to grow from its initial prototype into a feature-rich game with smoother mechanics, seamless transitions, and enhanced visual polish.
+            </p>
+
+            <p>
+              <strong style="font-size: medium;">Itch.io Link:</strong> 
+              <a href="https://knight070409.itch.io/fragile-flight" style="color: rgb(99, 99, 179); font-weight: bold;" target="_blank">
+                https://knight070409.itch.io/fragile-flight
+              </a>
+            </p>   
+
+          </section>
+
+      </article>
+
+    </div>
+    
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

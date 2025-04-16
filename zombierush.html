@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Yash Rakesh Pal" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yash Rakesh Pal">Yash Rakesh Pal</h1>
+
+          <p class="title">Unity developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yashpal070409@gmail.com" class="contact-link">yashpal070409@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nandurbar, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+<!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            
+            <a href="index.html" class="navbar-link" data-nav-link>Back</a>
+
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio active" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Zombie Rush</h2>
+        </header>
+
+        <section class="studios">
+
+          <ul class="studios-list has-scrollbar">
+
+            <li class="game-pic">
+                <img src="./assets/images/zombie-rush-1.png" alt="studios logo">
+            </li>
+
+            <li class="game-pic">
+                <img src="./assets/images/zombie-rush-2.png" alt="studios logo">
+            </li>
+
+            <li class="game-pic">
+                <img src="./assets/images/zombie-rush-3.png" alt="studios logo">
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="about-text">
+            <p>
+              Zombie Rush is a top-down 3D zombie shooter developed for JABSZ Gaming Studios LLP and published on the Google Play Store. 
+              In this fast-paced mobile game, players battle against endless hordes of zombies in both wave-based and survival game modes.
+            </p>
+
+            <p>
+              As the Lead Game Developer and Associate Game Designer of this game, I was responsible for core gameplay mechanics, AI systems, player controls, and monetization features. 
+              Key contributions included:
+            </p>
+
+            <p>
+              Zombie AI System: Designed and implemented two wave management systems—Normal (predefined escalating waves) and Endless (dynamically scaling difficulty based on player progress).
+            </p>
+
+            <p>
+              Player Movement System: Developed smooth joystick-based navigation optimized for mobile gameplay.
+            </p>
+
+            <p>
+              Aim Assist System: Built an auto-aim feature to enhance targeting fluidity by locking onto the nearest enemy in range.
+            </p>
+
+            <p>
+              Minimap System: Created a real-time minimap showing player position, enemy locations, and surrounding environment.
+            </p>
+
+            <p>
+              Monetization: Integrated Unity Ads for rewarded video ads (unlocking grenades, molotovs, bandages, etc.), and implemented IAP for no-ads packs and coin bundles.
+            </p>
+
+            <p>
+              This project allowed me to combine technical execution with game design thinking, delivering a polished and engaging mobile gaming experience for a studio release.
+            </p>
+
+            <p>
+              <strong style="font-size: medium;">Play Store Link:</strong> 
+              <a href="https://play.google.com/store/apps/details?id=com.JabszGamingStudios.ZombieRush&pcampaignid=web_share" style="color: rgb(99, 99, 179); font-weight: bold;" target="_blank">
+                https://play.google.com/store/apps/details_id=com.JabszGamingStudios.ZombieRush
+              </a>
+            </p>            
+  
+          </section>
+
+      </article>
+
+
+      
+    </div>
+    
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

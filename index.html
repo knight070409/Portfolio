@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Yash Rakesh Pal" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yash Rakesh Pal">Yash Rakesh Pal</h1>
+
+          <p class="title">Unity developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yashpal070409@gmail.com" class="contact-link">yashpal070409@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nandurbar, Maharashtra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>-->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Unity Developer from Maharashtra, India, specializing in mobile and VR game development.
+            I enjoy turning creative ideas into immersive, interactive experiences that are fun to play and technically refined.
+          </p>
+
+          <p>
+            My job is to build games that are smooth, intuitive, and visually engaging. 
+            I focus on creating gameplay systems that feel natural, whether it's responsive player controls, smart enemy AI, or seamless monetization. 
+            I add a personal touch to every project — making sure it’s not just functional, but memorable.
+          </p>
+
+          <p>
+            Through my experience with studios like JABSZ Gaming, Avanee Mobile Apps, and SparkVR, I’ve led the development of core features such as enemy AI, minimaps, in-app purchases, and rewarded ad systems. 
+            I thrive both independently and in team settings, always pushing myself to learn, grow, and explore new tools and techniques.
+          </p>
+
+          <p>
+            For me, it’s not just about building games — it’s about crafting experiences players remember. Let’s build something awesome together!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game development</h4>
+
+                <p class="service-item-text">
+                  Quality development of games at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game design</h4>
+
+                <p class="service-item-text">
+                  Quality game design crafted at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+
+            </button>
+
+          </section>
+
+        </div>
+
+        <!--
+          - studios
+        -->
+
+        <section class="studios">
+
+          <h3 class="h3 studios-title">Studios</h3>
+
+          <ul class="studios-list has-scrollbar">
+
+            <li class="studios-item">
+              <a href="https://www.jabszgamingstudios.com/" target="_blank">
+                <img src="./assets/images/jabsz-logo.png" alt="studios logo">
+              </a>
+            </li>
+
+            <li class="studios-item">
+              <a href="https://tanwanigamestudio.com/" target="_blank">
+                <img src="./assets/images/tgs-logo.png" alt="studios logo">
+              </a>
+            </li>
+
+            <li class="studios-item">
+              <a href="https://avanee.in/" target="_blank">
+                <img src="./assets/images/avanee-logo.png" alt="studios logo">
+              </a>
+            </li>
+
+            <li class="studios-item">
+              <a href="https://sparkvr.in/" target="_blank">
+                <img src="./assets/images/sparkvr-logo.png" alt="studios logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VIT Bhopal University, Bhopal</h4>
+
+              <span>2021 — Present (Graduating in 2025)</span>
+
+              <p class="timeline-text">
+                B.TECH in Computer Science (Specialization in Gaming Technology) 
+              </p>
+
+              <p class="timeline-text">
+                • CGPA: 8.04
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Matoshri Junior College, Nashik</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Senior Secondary (XII), Science
+              </p>
+
+              <p class="timeline-text">
+                • Percentage: 89.50
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mother Teresa English School, Nandurbar</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                Secondary (X)
+              </p>
+
+              <p class="timeline-text">
+                • Percentage: 85.00
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Unity Developer (Intern)</h4>
+
+              <span>JABSZ Gaming Studios LLP</span>
+
+              <span>September 2024 — Present</span>
+
+              <p class="timeline-text">
+                • Act as the Lead Game Developer and Associate Game Designer, overseeing core gameplay mechanics and design 
+                aspects for a zombie shooter mobile game. 
+              </p>
+
+              <p class="timeline-text">
+                • Designed and implemented a Zombie AI System tailored to game.
+              </p>
+
+              <p class="timeline-text">
+                • Created a Minimap System to enhance player navigation, dynamically displaying enemy positions, player location, 
+                and environmental features. 
+              </p>
+              
+              <p class="timeline-text">
+                • Integrated Unity Ads SDK to implement rewarded ads for in-game benefits such as grenades, molotovs, bandages, and 
+                other abilities.
+              </p>
+
+              <p class="timeline-text">
+                • Implemented In-App Purchase (IAP) functionalities for a no-ads pack and coin purchases. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Unity Developer (Freelance)</h4>
+
+              <span>November 2023 — May 2024</span>
+
+              <p class="timeline-text">
+                • Designed and implemented more than 35 levels for mobile game, ensuring they are engaging, challenging, and fun to 
+                play, while maintaining balanced difficulty progression. 
+              </p>
+
+              <p class="timeline-text">
+                • Integrated ads network SDKs, optimizing in-game monetization strategies and ensuring seamless ad placements 
+                without disrupting gameplay. 
+              </p>
+
+              <p class="timeline-text">
+                • Collaborated with clients to deliver polished, performance-optimized game content, meeting tight deadlines and 
+                exceeding client expectations. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Unity Developer (Part-time)</h4>
+
+              <span>Avanee Mobile Apps LLP</span>
+
+              <span>June 2023 — July 2023</span>
+
+              <p class="timeline-text">
+                • Experienced DoTween plugins for UI and animations, harnessing C# to craft captivating visual experiences, 
+                contributing to immersive gameplay. 
+              </p>
+
+              <p class="timeline-text">
+                • Utilized particle system implementations across projects to craft captivating confetti effects, elevating user engagement 
+                and enhancing visual storytelling within immersive environments. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Unity Developer (Intern)</h4>
+
+              <span>SparkVR</span>
+
+              <span>February 2023 — March 2023</span>
+
+              <p class="timeline-text">
+                • Proficient in developing VR-based projects using Unity3D, leveraging innovative technologies to create immersive 
+                experiences. 
+              </p>
+
+              <p class="timeline-text">
+                • Collaborated closely with cross-functional teams to seamlessly integrate 3D assets, animations, and sound effects into 
+                projects, prioritizing user experience and performance optimization. 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5 skill-label">Programming Languages:</h5>
+                <p class="skill-text">C#, HTML, CSS, Javascript, C++, C, Python </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Game Development:</h5>
+                <p class="skill-text">Unity3D, Unity Cloud, Unity Ads SDK, DOTween, Unity Input System, Animation Systems, 
+                  Particle Systems, Level Design, AI Systems (e.g., Zombie AI), In-App Purchases (IAP), Phaser3 </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Software/Tools:</h5>
+                <p class="skill-text"> Git/Github, Visual Studio, Canva </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Soft Skills:</h5>
+                <p class="skill-text">Problem-Solving and Debugging, Strong Time Management and Task Prioritization, Excellent Researcher 
+                  for New Tools and Techniques, Effective Independent Worker and Collaborative Team Player, Adaptability, Leadership  </p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Language Skills:</h5>
+                <p class="skill-text">Hindi (fluent), English (fluent), Marathi (intermediate) </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+            </button>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active">
+              <a href="platform.html" >
+                
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/2d-platform-game.png" alt="2D Platform Game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">2D Platform Game</h3>
+              </a>
+            </li>
+
+            
+            <li class="project-item active">
+              <a href="arproject.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/AR-edtech-game.png" alt="AR Edtech game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AR EdTech Game</h3>
+
+              </a>
+            </li>
+            
+          
+
+            <li class="project-item  active">
+              <a href="zombierush.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/zombie-rush.jpg" alt="Zombie Rush" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Zombie Rush</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="fragileflight.html" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/fragile-flight.png" alt="Fragile Flight" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fragile Flight</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="wordplaces.html" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/word-places.png" alt="Word Places" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Word Places</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="gravitas.html" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gravitas.png" alt="Gravitas" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gravitas</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="missionganga.html" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mission-ganga.png" alt="Mission Ganga" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mission Ganga</h3>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+      <!--
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+      -->
+
+    </div>
+    
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
